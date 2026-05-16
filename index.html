@@ -7,16 +7,14 @@
     <meta name="description" content="Portfolio of Dharmesh Vekaria - Aspiring tech professional focused on AI/ML, Cybersecurity, and Cloud. 3rd-year Diploma IT student from Gujarat, India.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
-    <div id="bg-canvas"></div>
-
-    <nav class="glass-nav">
+<body class="minimal-theme">
+    <nav class="main-nav">
         <div class="nav-container">
-            <a href="#" class="logo">DV<span>.</span></a>
+            <a href="#" class="logo">Dharmesh<span>.</span></a>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -37,8 +35,8 @@
             <div class="container">
                 <div class="hero-content">
                     <span class="badge">Available for Internships</span>
-                    <h1>Hello, I'm <span class="highlight">Dharmesh Vekaria</span></h1>
-                    <p class="typewriter-text">Aspiring AI/ML & Cybersecurity Professional</p>
+                    <h1>Hello, I'm <span class="name">Dharmesh Vekaria</span></h1>
+                    <p class="typewriter-text">AI/ML & Cybersecurity Professional</p>
                     <p class="hero-subtext">3rd-year Diploma IT Student focused on building secure and intelligent infrastructure.</p>
                     <div class="hero-btns">
                         <a href="#projects" class="btn primary">View My Work</a>
@@ -65,15 +63,15 @@
                         </div>
                     </div>
                     <div class="about-stats">
-                        <div class="stat-card glass">
+                        <div class="stat-card">
                             <span class="stat-num">3+</span>
                             <span class="stat-label">Years of Learning</span>
                         </div>
-                        <div class="stat-card glass">
+                        <div class="stat-card">
                             <span class="stat-num">5+</span>
                             <span class="stat-label">Core Projects</span>
                         </div>
-                        <div class="stat-card glass">
+                        <div class="stat-card">
                             <span class="stat-num">10+</span>
                             <span class="stat-label">Technologies</span>
                         </div>
@@ -86,7 +84,7 @@
             <div class="container">
                 <h2 class="section-title">Technical Stack</h2>
                 <div class="skills-grid">
-                    <div class="skill-category glass">
+                    <div class="skill-category">
                         <h3><i class="fas fa-code"></i> Languages</h3>
                         <div class="skill-tags">
                             <span>Python</span>
@@ -96,7 +94,7 @@
                             <span>HTML5/CSS3</span>
                         </div>
                     </div>
-                    <div class="skill-category glass">
+                    <div class="skill-category">
                         <h3><i class="fas fa-brain"></i> AI & Data Science</h3>
                         <div class="skill-tags">
                             <span>TensorFlow</span>
@@ -105,7 +103,7 @@
                             <span>Scikit-learn</span>
                         </div>
                     </div>
-                    <div class="skill-category glass">
+                    <div class="skill-category">
                         <h3><i class="fas fa-shield-alt"></i> Cybersecurity & Cloud</h3>
                         <div class="skill-tags">
                             <span>AWS</span>
@@ -122,12 +120,39 @@
             <div class="container">
                 <h2 class="section-title">Featured Projects</h2>
                 <div class="projects-grid">
-                    <article class="project-card glass">
+                    <article class="project-card">
                         <div class="project-img">
-                            <img src="assets/spyware_detection.png" alt="Spyware Detection">
-                            <div class="project-links">
-                                <a href="https://github.com/VekariaDharmesh/Ai-based-Spware-Detection" target="_blank"><i class="fab fa-github"></i></a>
+                            <img src="assets/jarvis_minimal.png" alt="Jarvis Multiagentic">
+                        </div>
+                        <div class="project-info">
+                            <h3>Jarvis Multiagentic</h3>
+                            <p>A professional-grade, modular AI voice assistant featuring voice-controlled automation and autonomous task execution.</p>
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Ollama</span>
+                                <span>Whisper</span>
                             </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-img">
+                            <img src="assets/stealth_browser_minimal.png" alt="Stealth Browser Agent">
+                        </div>
+                        <div class="project-info">
+                            <h3>Stealth Browser Agent</h3>
+                            <p>High-performance browser automation bridge and multi-instance orchestrator with advanced stealth injection.</p>
+                            <div class="project-tags">
+                                <span>Go</span>
+                                <span>TypeScript</span>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-img">
+                            <img src="assets/spyware_minimal.png" alt="Spyware Detection">
                         </div>
                         <div class="project-info">
                             <h3>AI-Based Spyware Detection</h3>
@@ -140,12 +165,9 @@
                         </div>
                     </article>
 
-                    <article class="project-card glass">
+                    <article class="project-card">
                         <div class="project-img">
-                            <img src="assets/railway_rakshak.png" alt="Railway Rakshak">
-                            <div class="project-links">
-                                <a href="https://github.com/VekariaDharmesh/Railwayrakshak" target="_blank"><i class="fab fa-github"></i></a>
-                            </div>
+                            <img src="assets/railway_minimal.png" alt="Railway Rakshak">
                         </div>
                         <div class="project-info">
                             <h3>Railway Rakshak</h3>
@@ -158,12 +180,9 @@
                         </div>
                     </article>
                     
-                    <article class="project-card glass">
+                    <article class="project-card">
                         <div class="project-img">
-                            <img src="assets/cloud_project.png" alt="Cloud Project">
-                            <div class="project-links">
-                                <a href="https://github.com/VekariaDharmesh" target="_blank"><i class="fab fa-github"></i></a>
-                            </div>
+                            <img src="assets/cloud_minimal.png" alt="Cloud Project">
                         </div>
                         <div class="project-info">
                             <h3>Cloud Infrastructure</h3>
